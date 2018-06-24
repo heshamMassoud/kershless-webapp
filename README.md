@@ -5,6 +5,8 @@ This is a very simplistic example which shows how to configure the Prismic Javas
 
 ## Commands
 ````bash
+# Install the dependencies
+npm install
 # Start the development server
 npm run start 
 # Build for production
