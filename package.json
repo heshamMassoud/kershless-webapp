@@ -1,24 +1,24 @@
 {
-  "name": "react-static-example-basic",
-  "version": "1.0.1",
+  "name": "kershless-next",
+  "version": "1.0.0",
+  "description": "",
   "main": "index.js",
-  "license": "MIT",
   "scripts": {
-    "start": "react-static start",
-    "stage": "react-static build --staging",
-    "build": "react-static build",
-    "serve": "serve dist -p 3000"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "postinstall": "npm run getcontent",
+    "getcontent": "babel-node helpers/getcontent.js install"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "axios": "^0.16.2",
-    "prismic-javascript": "^1.5.0-beta.1",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
-    "react-router": "^4.2.0",
-    "react-static": "^5.9.7"
-  },
-  "devDependencies": {
-    "eslint-config-react-tools": "1.x.x",
-    "serve": "^6.1.0"
+    "babel-cli": "^6.26.0",
+    "contentful": "^6.1.1",
+    "next": "^5.1.0",
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0"
   }
 }
