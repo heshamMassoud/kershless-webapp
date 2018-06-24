@@ -1,6 +1,12 @@
 # Kershless 
 This is a very simplistic example which shows how to configure the Prismic Javascript library to fetch some data.
 
+![kershless](http://www.kershless.com/Assets/Images/kershless_logo.svg)
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+  - [URLs](#urls)
+  - [Commands](#commands)
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## URLs 
 - [Kershless Webapp deployed on gh-pages](https://heshammassoud.github.io/kershless-webapp/)
